@@ -14,6 +14,9 @@ use Smalot\Github\Webhook\Model\WatchModel;
  */
 class WatchEvent extends EventBase
 {
+
+    const NAME = 'watch';
+
     /**
      * @return string
      */

@@ -12,6 +12,9 @@ use Smalot\Github\Webhook\Model\MemberModel;
  */
 class MemberEvent extends EventBase
 {
+
+    const NAME = 'member';
+
     /**
      * @return string
      */

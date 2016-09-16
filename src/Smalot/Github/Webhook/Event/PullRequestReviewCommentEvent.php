@@ -12,6 +12,9 @@ use Smalot\Github\Webhook\Model\PullRequestReviewCommentModel;
  */
 class PullRequestReviewCommentEvent extends EventBase
 {
+
+    const NAME = 'pull_request_review_comment';
+
     /**
      * @return string
      */

@@ -14,6 +14,9 @@ use Smalot\Github\Webhook\Model\RepositoryModel;
  */
 class RepositoryEvent extends EventBase
 {
+
+    const NAME = 'repository';
+
     /**
      * @return string
      */

@@ -12,6 +12,9 @@ use Smalot\Github\Webhook\Model\IssuesModel;
  */
 class IssuesEvent extends EventBase
 {
+
+    const NAME = 'issues';
+
     /**
      * @return string
      */

@@ -12,6 +12,9 @@ use Smalot\Github\Webhook\Model\ReleaseModel;
  */
 class ReleaseEvent extends EventBase
 {
+
+    const NAME = 'release';
+
     /**
      * @return string
      */

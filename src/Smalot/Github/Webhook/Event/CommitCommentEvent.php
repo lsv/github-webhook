@@ -12,6 +12,9 @@ use Smalot\Github\Webhook\Model\CommitCommentModel;
  */
 class CommitCommentEvent extends EventBase
 {
+
+    const NAME = 'commit_comment';
+
     /**
      * @return string
      */

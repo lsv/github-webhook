@@ -14,6 +14,9 @@ use Smalot\Github\Webhook\Model\GistModel;
  */
 class GistEvent extends EventBase
 {
+
+    const NAME = 'gist';
+
     /**
      * @return string
      */

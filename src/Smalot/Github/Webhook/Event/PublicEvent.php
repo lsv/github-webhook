@@ -12,6 +12,9 @@ use Smalot\Github\Webhook\Model\PublicModel;
  */
 class PublicEvent extends EventBase
 {
+
+    const NAME = 'public';
+
     /**
      * @return string
      */

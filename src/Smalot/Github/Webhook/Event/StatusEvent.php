@@ -14,6 +14,9 @@ use Smalot\Github\Webhook\Model\StatusModel;
  */
 class StatusEvent extends EventBase
 {
+
+    const NAME = 'status';
+
     /**
      * @return string
      */

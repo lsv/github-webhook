@@ -14,6 +14,9 @@ use Smalot\Github\Webhook\Model\DeploymentModel;
  */
 class DeploymentEvent extends EventBase
 {
+
+    const NAME = 'deployment';
+
     /**
      * @return string
      */

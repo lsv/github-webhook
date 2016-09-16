@@ -14,6 +14,9 @@ use Smalot\Github\Webhook\Model\FollowModel;
  */
 class FollowEvent extends EventBase
 {
+
+    const NAME = 'follow';
+
     /**
      * @return string
      */

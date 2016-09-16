@@ -14,6 +14,9 @@ use Smalot\Github\Webhook\Model\ForkApplyModel;
  */
 class ForkApplyEvent extends EventBase
 {
+
+    const NAME = 'fork_apply';
+
     /**
      * @return string
      */
