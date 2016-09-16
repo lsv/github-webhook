@@ -22,7 +22,7 @@ abstract class EventBase extends Event
     protected $payload;
 
     /**
-     * @var ModelBase
+     * @var mixed
      */
     protected $model;
 
