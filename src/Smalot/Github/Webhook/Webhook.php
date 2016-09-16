@@ -205,6 +205,6 @@ class Webhook
         list ($algo, $gitHubSignature) = explode('=', $signatureHeader);
         $payloadHash = hash_hmac($algo, $payload, $secret);
 
-        return ($payloadHash == $gitHubSignature);
+        return ($payloadHash === $gitHubSignature);
     }
 }
