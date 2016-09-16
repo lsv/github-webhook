@@ -12,6 +12,9 @@ use Smalot\Github\Webhook\Model\GollumModel;
  */
 class GollumEvent extends EventBase
 {
+
+    const NAME = 'gollum';
+
     /**
      * @return string
      */

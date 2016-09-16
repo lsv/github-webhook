@@ -14,6 +14,9 @@ use Smalot\Github\Webhook\Model\DeploymentStatusModel;
  */
 class DeploymentStatusEvent extends EventBase
 {
+
+    const NAME = 'deployment_status';
+
     /**
      * @return string
      */

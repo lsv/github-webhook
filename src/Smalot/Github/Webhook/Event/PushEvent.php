@@ -13,6 +13,9 @@ use Smalot\Github\Webhook\Model\PushModel;
  */
 class PushEvent extends EventBase
 {
+
+    const NAME = 'push';
+
     /**
      * @return string
      */

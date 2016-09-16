@@ -12,6 +12,9 @@ use Smalot\Github\Webhook\Model\DeleteModel;
  */
 class DeleteEvent extends EventBase
 {
+
+    const NAME = 'delete';
+
     /**
      * @return string
      */

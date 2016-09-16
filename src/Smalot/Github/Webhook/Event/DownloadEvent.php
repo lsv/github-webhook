@@ -14,6 +14,9 @@ use Smalot\Github\Webhook\Model\DownloadModel;
  */
 class DownloadEvent extends EventBase
 {
+
+    const NAME = 'download';
+
     /**
      * @return string
      */

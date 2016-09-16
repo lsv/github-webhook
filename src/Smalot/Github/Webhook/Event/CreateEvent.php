@@ -14,6 +14,9 @@ use Smalot\Github\Webhook\Model\CreateModel;
  */
 class CreateEvent extends EventBase
 {
+
+    const NAME = 'create';
+
     /**
      * @return string
      */

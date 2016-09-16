@@ -14,6 +14,9 @@ use Smalot\Github\Webhook\Model\TeamAddModel;
  */
 class TeamAddEvent extends EventBase
 {
+
+    const NAME = 'team_add';
+
     /**
      * @return string
      */

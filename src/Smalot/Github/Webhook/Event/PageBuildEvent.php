@@ -16,6 +16,9 @@ use Smalot\Github\Webhook\Model\PageBuildModel;
  */
 class PageBuildEvent extends EventBase
 {
+
+    const NAME = 'page_build';
+
     /**
      * @return string
      */

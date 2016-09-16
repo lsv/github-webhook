@@ -14,6 +14,9 @@ use Smalot\Github\Webhook\Model\PingModel;
  */
 class PingEvent extends EventBase
 {
+
+    const NAME = 'ping';
+
     /**
      * @return string
      */

@@ -13,6 +13,9 @@ use Smalot\Github\Webhook\Model\PullRequestModel;
  */
 class PullRequestEvent extends EventBase
 {
+
+    const NAME = 'pull_request';
+
     /**
      * @return string
      */
